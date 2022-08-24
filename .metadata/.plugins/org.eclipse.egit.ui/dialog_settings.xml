@@ -10,7 +10,21 @@
 		<item value="https://github.com/studentqa2021/Teacher-Zoopla-Automation-Batch14.git"/>
 		<item value="https://github.com/QA-Alam/Zoopla_UK_Automation.git"/>
 	</list>
+	<list key="CommitDialog.authorValues">
+		<item value="MahmudPerv &lt;mahmudperv@gmail.com&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="MahmudPerv &lt;mahmudperv@gmail.com&gt;"/>
+	</list>
 	<section name="GitImportWizard">
 		<item key="GitProjectsImportPage.STORE_NESTED_PROJECTS" value="true"/>
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
 	</section>
 </section>
