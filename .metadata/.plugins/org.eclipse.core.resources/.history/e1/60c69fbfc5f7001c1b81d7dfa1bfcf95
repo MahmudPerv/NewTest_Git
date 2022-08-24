@@ -1,0 +1,11 @@
+package first_java;
+
+public class StringPractice {
+	public static void main(String[] args) {
+
+		// how to convert String to int??
+		int x = Integer.parseInt("200");
+
+		System.out.println(x);
+	}
+}

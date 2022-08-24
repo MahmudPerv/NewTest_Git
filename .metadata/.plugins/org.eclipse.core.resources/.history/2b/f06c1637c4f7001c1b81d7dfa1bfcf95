@@ -1,0 +1,26 @@
+package first_java;
+
+public class StringPractice {
+	public static void main(String[] args) {
+		
+		String name = "Bushra";//pool
+		String name1 = "Bushra";//pool
+		
+		String name2 = new String("Bushra");//heap
+		
+		System.out.println(name==name1);//true
+		System.out.println(name==name2);//false // because is different storage
+		name.concat("chowdhury");//immutable
+		System.out.println(name);
+		
+		StringBuilder name3 = new StringBuilder("Bushra");
+		//name3.append("chowdhury");//mutable
+		System.out.println(name3);
+		
+		StringBuffer bf= new StringBuffer("Bushra");
+		System.out.println(name3.append(bf));
+		
+		
+		
+	}
+}

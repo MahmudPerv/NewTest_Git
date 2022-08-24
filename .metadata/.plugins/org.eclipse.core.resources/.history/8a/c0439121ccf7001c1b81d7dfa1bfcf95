@@ -1,0 +1,17 @@
+package first_java;
+
+public class StringPractice {
+	public static void main(String[] args) {
+
+		// how to convert int or double value to String??
+
+		String fName = "Mohammad";
+		String lName = "Rahman";
+		 
+		String fullName=fName.concat(lName);
+		
+		System.out.println(fullName);
+		
+		
+	}
+}

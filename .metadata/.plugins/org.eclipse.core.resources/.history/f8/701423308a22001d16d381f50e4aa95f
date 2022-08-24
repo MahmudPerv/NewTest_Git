@@ -1,0 +1,44 @@
+package seleniumJavaPractice;
+
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class TodayPractice {
+	@Test
+	public void setUp() throws InterruptedException {
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://www.amazon.com/");
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		WebElement bestSeller = driver
+				.findElement(By.xpath("//a[contains(@href,'/gp/bestsellers/?ref_=nav_cs_bestsellers')]"));
+		System.out.println(bestSeller.getText() + ": And Attribute Value is : " + bestSeller.getAttribute("href"));
+		/*
+		 * Actions action=new Actions(driver);
+		 * action.contextClick(bestSeller).perform();
+		 */
+		JavascriptExecutor js= (JavascriptExecutor)driver;
+		js.executeScript("arguments[0].click()", bestSeller );
+		
+		System.out.println("Right click is work:");
+		WebElement search = driver.findElement(By
+				.xpath("//input[@id='twotabsearchtextbox']"));
+		search.sendKeys("IPhone");
+		Thread.sleep(3000);
+		search.sendKeys(Keys.RETURN);
+		driver.quit();
+
+	}
+}

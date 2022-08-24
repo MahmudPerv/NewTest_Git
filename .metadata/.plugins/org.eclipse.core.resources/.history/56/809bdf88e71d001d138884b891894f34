@@ -1,0 +1,32 @@
+package com.testNG.test;
+
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+public class TestNGPractice {
+
+	@BeforeTest
+	public void setUp() {
+		System.out.println("@Before Execute");
+	}
+
+	@AfterTest
+	public void tearDown() {
+		System.out.println("@After Execute");
+
+	}
+
+	@Test(enabled=true)
+
+	public void test1() {
+		System.out.println("Test1 Execute");
+	}
+
+	@Test(expectedExceptions =Exception.class)
+	public void test2() {
+		int []arr= {5,10,15};
+		System.out.println(arr[3]);
+	}
+
+}

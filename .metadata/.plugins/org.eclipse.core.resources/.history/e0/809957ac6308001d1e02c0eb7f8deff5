@@ -1,0 +1,47 @@
+package jcpenny.ny;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class SeleniumTest {
+
+	@Test
+	public void seleniumWebdriverMethod() {
+		
+		WebDriverManager.chromedriver().setup();
+		WebDriver driver = new ChromeDriver();
+		/*driver.close();
+		driver.get(null);
+		driver.getCurrentUrl();
+		driver.getPageSource();
+		driver.getTitle();
+		driver.getWindowHandle();
+		driver.getWindowHandles();
+		driver.manage();
+		driver.navigate();
+		driver.quit();
+		driver.switchTo();*/
+		driver.get("https://www.google.com/");
+		WebElement search = driver.findElement(By.xpath("//input[@title='Search']"));
+		search.sendKeys("Dhaka Bangladesh");
+		search.sendKeys(Keys.RETURN);
+		driver.findElement(By.xpath("//div[@data-hveid='CBkQAA']//div[@class='Z26q7c jGGQ5e VGXe8']//a")).click();
+		
+		//driver.quit();
+		
+		
+		
+		
+		
+		
+		
+		
+				
+	}
+}

@@ -1,0 +1,11 @@
+package first_java;
+
+public class Test {
+	
+	public static void main(String[] args) {
+		SwapTest obj = new SwapTest();
+		obj.getSwap(15,20);
+	}
+
+
+}

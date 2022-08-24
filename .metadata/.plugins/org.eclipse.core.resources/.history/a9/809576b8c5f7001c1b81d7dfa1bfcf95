@@ -1,0 +1,20 @@
+package first_java;
+
+public class StringPractice {
+	public static void main(String[] args) {
+		
+		// how to convert String to int??
+		String num= "10";
+		
+		int y=Integer.parseInt(num);
+		
+		System.out.println(y+20);
+		
+		System.out.println();
+		int x = 10;
+		System.out.println(x+10);
+		
+		
+		
+	}
+}

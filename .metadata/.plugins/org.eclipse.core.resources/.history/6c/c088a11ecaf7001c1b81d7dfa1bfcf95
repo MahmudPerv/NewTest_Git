@@ -1,0 +1,14 @@
+package first_java;
+
+public class StringPractice {
+	public static void main(String[] args) {
+
+		// how to convert int or double value to String??
+
+		String Fname = "Mohammad";
+		String Lname = "Rahman";
+		String n;
+		System.out.println(n);
+		
+	}
+}

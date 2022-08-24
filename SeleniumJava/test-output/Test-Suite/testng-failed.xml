@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test-Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GroupTest(failed)">
+    <groups>
+      <run>
+        <include name="demo.*"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.testNG.test.TestNGPractice">
+        <methods>
+          <include name="cart"/>
+        </methods>
+      </class> <!-- com.testNG.test.TestNGPractice -->
+    </classes>
+  </test> <!-- GroupTest(failed) -->
+</suite> <!-- Failed suite [Test-Suite] -->

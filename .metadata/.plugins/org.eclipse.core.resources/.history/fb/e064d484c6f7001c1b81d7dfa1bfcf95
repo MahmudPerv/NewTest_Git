@@ -1,0 +1,12 @@
+package first_java;
+
+public class StringPractice {
+	public static void main(String[] args) {
+
+		// how to convert Strng to int??
+		String y = "2000";
+		int x = Integer.parseInt(y);
+
+		System.out.println(x-20);
+	}
+}

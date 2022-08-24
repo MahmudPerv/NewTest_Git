@@ -1,0 +1,22 @@
+package first_java;
+
+ class SwapValues {
+
+	protected void swapTest(int a , int b) {
+		Double db = 2500.45;
+		double db1 = 2500.34;
+		db.intValue();
+		
+	
+		System.out.println("a value before swap:"+a);
+		System.out.println("b value before swap:"+b);
+		a= a+b;//a==30
+		b=a-b;// b==10
+		a= a-b;//a==20
+		System.out.println("a value after swap:"+a);
+		System.out.println("b value after swap:"+b);
+		
+	}
+
+}
+

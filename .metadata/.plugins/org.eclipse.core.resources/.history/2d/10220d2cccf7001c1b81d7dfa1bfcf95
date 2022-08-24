@@ -1,0 +1,15 @@
+package first_java;
+
+import java.util.StringJoiner;
+
+public class StringPractice {
+	public static void main(String[] args) {
+
+		// how to convert int or double value to String??
+
+		StringJoiner sJ= new StringJoiner(" ");
+		sJ.add("Mohammad").add("Rahman").add("Mizan");
+		System.out.println(sJ);
+		
+	}
+}

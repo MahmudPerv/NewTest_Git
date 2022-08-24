@@ -1,0 +1,17 @@
+package first_java;
+
+public class StringPractice {
+	public static void main(String[] args) {
+		
+		// how to convert String to int??
+		String num= "A";
+		System.out.println(num+10);
+		
+		System.out.println();
+		int x = 10;
+		System.out.println(x+10);
+		
+		
+		
+	}
+}

@@ -1,0 +1,16 @@
+package first_java;
+
+public class StringPractice {
+	public static void main(String[] args) {
+		
+		String name = "Bushra";
+		String name1 = "Bushra";
+		
+		String name2 = new String("Bushra");
+		
+		System.out.println(name==name1);//true
+		System.out.println(name==name2);//false // because is different storage
+		
+		
+	}
+}

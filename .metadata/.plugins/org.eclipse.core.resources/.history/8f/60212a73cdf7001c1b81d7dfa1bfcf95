@@ -1,0 +1,16 @@
+package first_java;
+
+import java.util.Arrays;
+import java.util.StringJoiner;
+
+public class StringPractice {
+	public static void main(String[] args) {
+
+		// how to break big String to small part???
+		String country = "Unite State of America";
+		
+		String [] parts=country.split("");
+		System.out.println(parts);
+		
+	}
+}

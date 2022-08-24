@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<item key="selection" value="rev"/>
+		<list key="findhistory">
+			<item value="rev1"/>
+			<item value="nstr"/>
+			<item value="&lt;project xmlns=&quot;http://maven.apache.org/POM/4.0.0&quot; xmlns:xsi=&quot;http://www.w3.org/2001/XMLSchema-instance&quot; xsi:schemaLocation=&quot;http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd&quot;&gt;"/>
+			<item value="d"/>
+			<item value="&lt;project xmlns=&quot;http://maven.apache.org/POM/4.0.0&quot;"/>
+			<item value="//"/>
+			<item value="action"/>
+			<item value="file"/>
+			<item value="maximum"/>
+		</list>
+		<list key="replacehistory">
+			<item value="rev"/>
+			<item value="drivre"/>
+			<item value=""/>
+			<item value="actoinObj"/>
+			<item value="fis"/>
+			<item value="big"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="805"/>
+		<item key="DIALOG_Y_ORIGIN" value="228"/>
+		<item key="DIALOG_WIDTH" value="462"/>
+		<item key="DIALOG_HEIGHT" value="436"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-30|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="646"/>
+		<item key="DIALOG_Y_ORIGIN" value="352"/>
+	</section>
+</section>

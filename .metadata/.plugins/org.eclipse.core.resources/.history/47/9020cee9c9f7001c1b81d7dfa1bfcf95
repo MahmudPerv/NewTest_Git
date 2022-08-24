@@ -1,0 +1,16 @@
+package first_java;
+
+public class StringPractice {
+	public static void main(String[] args) {
+
+		// how to convert int or double value to String??
+
+		int x = 20;
+		double y = 20.20;
+		String str = String.valueOf(x);
+		System.out.println(str + 10);
+		String str1 = String.valueOf(y);
+		System.out.println(str1 + 10);
+		System.out.println(20.20+10);
+	}
+}

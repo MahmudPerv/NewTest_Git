@@ -1,0 +1,21 @@
+package first_java;
+
+public class SwapTest {
+	
+	public void getSwap() {
+		//a+b, a-b,a-b;
+		
+		int a =20;
+		int b =10;
+		System.out.println("before swap a: "+a);
+		System.out.println("before swap b: "+b);
+		
+		
+		
+	}
+	public static void main(String[] args) {
+		SwapTest obj = new SwapTest();
+		obj.getSwap();
+	}
+
+}
